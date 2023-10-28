@@ -1,0 +1,154 @@
+/* Estilos para el cuerpo del documento */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Estilos para el encabezado */
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+}
+
+form {
+    max-width: 400px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para el enlace del encabezado */
+header a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Estilos para la barra de navegación */
+nav {
+    background-color: #444;
+    text-align: center;
+}
+
+/* Estilos para los enlaces de la barra de navegación */
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+/* Estilos para los enlaces de la barra de navegación cuando se les pasa el mouse por encima */
+nav a:hover {
+    background-color: #666;
+}
+
+/* Estilos para el contenido principal */
+main {
+    padding: 20px;
+}
+
+/* Estilos para la sección de partido destacado */
+.highlight {
+    background-color: #007bff;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Estilos para la lista de equipos destacados */
+.teams {
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+/* Estilos para la lista de equipos */
+.teams ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Estilos para los elementos de la lista de equipos */
+.teams li {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+/* Estilos para el pie de página */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
+
+/* styles.css */
+body {
+    background-color: #f8f9fa;
+}
+
+header {
+    background-color: #343a40;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    color: #ffffff;
+}
+
+.main {
+    padding-top: 20px;
+}
+
+.card {
+    border-radius: 10px;
+}

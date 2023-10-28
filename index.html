@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Cursos y Horarios</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">Colegio "Alida Zambrano Garcia"</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Cursos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="listadepartidos.html">Registrarse</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="matriculacion.html">Matriculacion</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Partidos.html">Inicio de Sesion</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="mailto:contactos@ejemplo.com">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    </header>
+
+    <body>
+        <div class="selection-container">
+            <h1>Selección de Curso y Horario</h1>
+            <form>
+                <label for="curso">Curso:</label>
+                <select id="curso" name="curso">
+                    <option value="matematicas">Matemáticas</option>
+                    <option value="historia">Historia</option>
+                    <option value="programacion">Programación</option>
+                    <option value="ingles">Inglés</option>
+                </select>
+
+                <label for="horario">Horario:</label>
+                <select id="horario" name="horario">
+                    <option value="lunes_miercoles">Lunes y Miércoles 10:00 AM - 12:00 PM</option>
+                    <option value="martes_jueves">Martes y Jueves 2:00 PM - 4:00 PM</option>
+                    <option value="viernes">Viernes 3:00 PM - 5:00 PM</option>
+                </select>
+
+                <button id="seleccionar">Seleccionar</button>
+            </form>
+
+            <div class="resultado" id="resultado">
+                <p>Curso seleccionado: <span id="cursoSeleccionado"></span></p>
+                <p>Horario seleccionado: <span id="horarioSeleccionado"></span></p>
+            </div>
+        </div>
+
+        <script src="script.js"></script>
+    </body>
+
+</html>

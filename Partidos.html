@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/css/bootstrap.min.css">
+    <title>Iniciar Sesión</title>
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">Colegio "Alida Zambrano Garcia"</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Cursos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="listadepartidos.html">Registrarse</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="matriculacion.html">Matriculacion</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Inicio de Sesion</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="mailto:contactos@ejemplo.com">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="login-container">
+        <h1>Iniciar Sesión</h1>
+        <form action="procesar_inicio_sesion.php" method="POST">
+            <label for="nombre_usuario">Nombre de Usuario:</label>
+            <input type="text" id="nombre_usuario" name="nombre_usuario" required>
+
+            <label for="contrasena">Contraseña:</label>
+            <input type="password" id="contrasena" name="contrasena" required>
+
+            <input type="submit" value="Iniciar Sesión">
+        </form>
+    </div>
+</body>
+
+</html>
